@@ -1,0 +1,17 @@
+[[34m2023-05-05 18:21:45,003[0m] {[34mscheduler_job.py:[0m714} INFO[0m - Starting the scheduler[0m
+[[34m2023-05-05 18:21:45,004[0m] {[34mscheduler_job.py:[0m719} INFO[0m - Processing each file at most -1 times[0m
+[[34m2023-05-05 18:21:45,016[0m] {[34mexecutor_loader.py:[0m107} INFO[0m - Loaded executor: SequentialExecutor[0m
+[[34m2023-05-05 18:21:45,027[0m] {[34mmanager.py:[0m163} INFO[0m - Launched DagFileProcessorManager with pid: 4558[0m
+[[34m2023-05-05 18:21:45,037[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-05-05 18:21:45,041[0m] {[34msettings.py:[0m58} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2023-05-05T18:21:45.071+0000] {manager.py:409} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2023-05-05 18:26:45,554[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-05-05 18:31:45,692[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-05-05 18:34:38,190[0m] {[34mscheduler_job.py:[0m179} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2023-05-05 18:34:39,193[0m] {[34mprocess_utils.py:[0m129} INFO[0m - Sending Signals.SIGTERM to group 4558. PIDs of all processes in the group: [4558][0m
+[[34m2023-05-05 18:34:39,193[0m] {[34mprocess_utils.py:[0m84} INFO[0m - Sending the signal Signals.SIGTERM to group 4558[0m
+[[34m2023-05-05 18:34:39,406[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=4558, status='terminated', exitcode=0, started='18:21:44') (4558) terminated with exit code 0[0m
+[[34m2023-05-05 18:34:39,408[0m] {[34mprocess_utils.py:[0m129} INFO[0m - Sending Signals.SIGTERM to group 4558. PIDs of all processes in the group: [][0m
+[[34m2023-05-05 18:34:39,408[0m] {[34mprocess_utils.py:[0m84} INFO[0m - Sending the signal Signals.SIGTERM to group 4558[0m
+[[34m2023-05-05 18:34:39,408[0m] {[34mprocess_utils.py:[0m98} INFO[0m - Sending the signal Signals.SIGTERM to process 4558 as process group is missing.[0m
+[[34m2023-05-05 18:34:39,409[0m] {[34mscheduler_job.py:[0m788} INFO[0m - Exited execute loop[0m

@@ -1,0 +1,9 @@
+[2023-05-05 18:21:44 +0000] [4551] [INFO] Starting gunicorn 20.1.0
+[2023-05-05 18:21:44 +0000] [4551] [INFO] Listening at: http://[::]:8793 (4551)
+[2023-05-05 18:21:44 +0000] [4551] [INFO] Using worker: sync
+[2023-05-05 18:21:44 +0000] [4552] [INFO] Booting worker with pid: 4552
+[2023-05-05 18:21:45 +0000] [4556] [INFO] Booting worker with pid: 4556
+[2023-05-05 18:34:39 +0000] [4551] [INFO] Handling signal: term
+[2023-05-05 18:34:39 +0000] [4556] [INFO] Worker exiting (pid: 4556)
+[2023-05-05 18:34:39 +0000] [4552] [INFO] Worker exiting (pid: 4552)
+[2023-05-05 18:34:39 +0000] [4551] [INFO] Shutting down: Master

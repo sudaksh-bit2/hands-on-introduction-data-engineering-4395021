@@ -1,0 +1,16 @@
+2023-05-05 18:21:45,003 INFO - Starting the scheduler
+2023-05-05 18:21:45,004 INFO - Processing each file at most -1 times
+2023-05-05 18:21:45,016 INFO - Loaded executor: SequentialExecutor
+2023-05-05 18:21:45,027 INFO - Launched DagFileProcessorManager with pid: 4558
+2023-05-05 18:21:45,037 INFO - Resetting orphaned tasks for active dag runs
+2023-05-05 18:21:45,041 INFO - Configured default timezone Timezone('UTC')
+2023-05-05 18:26:45,554 INFO - Resetting orphaned tasks for active dag runs
+2023-05-05 18:31:45,692 INFO - Resetting orphaned tasks for active dag runs
+2023-05-05 18:34:38,190 INFO - Exiting gracefully upon receiving signal 15
+2023-05-05 18:34:39,193 INFO - Sending Signals.SIGTERM to group 4558. PIDs of all processes in the group: [4558]
+2023-05-05 18:34:39,193 INFO - Sending the signal Signals.SIGTERM to group 4558
+2023-05-05 18:34:39,406 INFO - Process psutil.Process(pid=4558, status='terminated', exitcode=0, started='18:21:44') (4558) terminated with exit code 0
+2023-05-05 18:34:39,408 INFO - Sending Signals.SIGTERM to group 4558. PIDs of all processes in the group: []
+2023-05-05 18:34:39,408 INFO - Sending the signal Signals.SIGTERM to group 4558
+2023-05-05 18:34:39,408 INFO - Sending the signal Signals.SIGTERM to process 4558 as process group is missing.
+2023-05-05 18:34:39,409 INFO - Exited execute loop
